@@ -76,7 +76,7 @@ emojis:
 # - {import: snippets/emoji.txt}
 
 rulesets:
-  enabled: true
+  enabled: false
   overwrite_original_rules: true
   update_ruleset_on_request: false
   rulesets:

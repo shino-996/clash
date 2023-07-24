@@ -13,6 +13,7 @@ dns:
 
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
+
   fake-ip-filter:
     - '*.lan'
     - localhost.ptlogin2.qq.com
@@ -35,10 +36,15 @@ dns:
      ipcidr:
        - 240.0.0.0/4
 
+  nameserver-policy:
+    '+.sankuai.com': 11.11.11.11
+    '+.meituan.com': 11.11.11.11
+
 store-selected: true
 
 rules:
   - DOMAIN-SUFFIX,sankuai.com,DIRECT
+  - DOMAIN-SUFFIX,meituan.com,DIRECT
   - RULE-SET,reject,REJECT
   - RULE-SET,applications,DIRECT
   - RULE-SET,private,DIRECT
