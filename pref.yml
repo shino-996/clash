@@ -1,7 +1,8 @@
 common:
   api_mode: false
   api_access_token: shino
-  default_url: 
+  default_url:
+  # 替换成机场的订阅链接
   - https://sub.91unicorn.club/api/v1/client/subscribe?token=token
   enable_insert: false
   insert_url:
