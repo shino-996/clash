@@ -6,19 +6,28 @@ Clash Pro 配置文件
 
 # 使用方式
 
-使用 [subconverter][subconverter] 生成配置文件，比如在 shell 直接执行：
+- 在 pref.yml 中填上自己机场的订阅链接
+
+```
+  default_url:
+  # 替换成机场的订阅链接
+  - https://sub.91unicorn.club/api/v1/client/subscribe?token=token
+```
+
+- 使用 [subconverter][subconverter] 生成配置文件
+  比如在 shell 直接执行:
 
 ```
 ./subconverter
 ```
 
-Clash Pro 中的托管配置链接这么填
+更多用法参考 [subconverter][subconverter] 的官方文档。
+
+- Clash Pro 中的托管配置链接这么填
 
 ```
 http://127.0.0.1:25500/clashr
 ```
-
-更多用法参考 [subconverter][subconverter] 的官方文档。
 
 [subconverter]:https://github.com/tindy2013/subconverter
 [clash-rules]:https://github.com/Loyalsoldier/clash-rules
