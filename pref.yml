@@ -12,8 +12,7 @@ common:
   enable_filter: false
   filter_script: ""
   default_external_config: ""
-  base_path: base
-  clash_rule_base: clash.yaml
+  clash_rule_base: clash.yml
   quanx_rule_base: ""
   surge_rule_base: ""
   surfboard_rule_base: ""
